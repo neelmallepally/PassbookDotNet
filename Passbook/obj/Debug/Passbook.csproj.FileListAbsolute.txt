@@ -1,0 +1,7 @@
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\bin\Debug\Passbook.dll
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\bin\Debug\Passbook.pdb
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\obj\Debug\Passbook.dll
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\obj\Debug\Passbook.pdb
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook\obj\Debug\Passbook.csprojResolveAssemblyReference.cache

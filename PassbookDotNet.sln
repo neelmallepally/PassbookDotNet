@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passbook", "Passbook\Passbook.csproj", "{31DC6A76-5217-4A3E-A8E4-C965CA046E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passbook.Tests", "Passbook.Tests\Passbook.Tests.csproj", "{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{551D2480-501D-4501-BCF4-591A83D8C9AC}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PassbookDotNet.vsmdi = PassbookDotNet.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Passbook.Web", "..\..\WebSites\Passbook.Web\", "{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Passbook.Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Passbook.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Passbook.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Passbook.Web"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Passbook.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Passbook.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50684"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePass", "GeneratePass\GeneratePass.csproj", "{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PassbookDotNet.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{31DC6A76-5217-4A3E-A8E4-C965CA046E48}.Release|x86.ActiveCfg = Release|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E209F49A-DE39-404B-B3DE-CE68EC2CE9A4}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8B670A97-BD25-49FB-9E7A-B7D6AB0EB73C}.Release|x86.ActiveCfg = Debug|Any CPU
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Debug|x86.ActiveCfg = Debug|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Debug|x86.Build.0 = Debug|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Release|Any CPU.ActiveCfg = Release|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Release|x86.ActiveCfg = Release|x86
+		{8A6BC54F-B30F-4E4C-9D42-07D0CCFE9614}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

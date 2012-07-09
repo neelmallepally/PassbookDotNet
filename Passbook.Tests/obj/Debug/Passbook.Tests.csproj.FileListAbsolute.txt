@@ -1,0 +1,5 @@
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook.Tests\bin\Debug\Passbook.Tests.dll
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook.Tests\bin\Debug\Passbook.Tests.pdb
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook.Tests\obj\Debug\Passbook.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook.Tests\obj\Debug\Passbook.Tests.dll
+C:\Users\Neel\Documents\Visual Studio 2010\Projects\PassbookDotNet\Passbook.Tests\obj\Debug\Passbook.Tests.pdb
